@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "11-inch iPad Pro (512 GB) - Space Gray",
+      "image": "https://slugstore.ucsc.edu/sc-product-images/11-inch-iPad-Pro-4th-Generation_Space-Gray.png",
+      "price": "1099"
+    },
+    {
+      "id": 2,
+      "name": "iPad Air (64 GB) - Silver",
+      "image": "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/apple-ipad-air-10-9-inch-wifi-64gb-silver-4th-generation-front-back-view.png",
+      "price": "599"
+    },
+    {
+      "id": 3,
+      "name": "13-inch Macbook Air (256 GB) - Space Gray",
+      "image": "https://www.aptronixindia.com/pub/media/catalog/product/1/3/13_inch_macbook_air_cto_fileminimizer__1_1_.png",
+      "price": "1099"
+    },
+    {
+      "id": 4,
+      "name": "14-inch Macbook Pro 12 Core (1 TB) - Space Black",
+      "image": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111902_mbp14-silver2.png",
+      "price": "1499"
+    },
+    {
+      "id": 5,
+      "name": "15-inch Macbook Air (2 TB) - Midnight",
+      "image": "https://photos5.appleinsider.com/price_guide/m2-macbook-air-15-inch-midnight-pp-header.png",
+      "price": "1299"
+    },
+    {
+      "id": 6,
+      "name": "Airpods Max",
+      "image": "https://www.apple.com/v/airpods-max/f/images/overview/hero__gnfk5g59t0qe_xlarge.png",
+      "price": "599"
+    },
+    {
+      "id": 7,
+      "name": "Iphone 14 (128 GB) - Blue",
+      "image": "https://i.ibb.co/McSKTH1/Apple-i-Phone-14-i-Phone-14-Plus-2up-blue-220907-geo-inline-jpg-large-removebg-preview.png",
+      "price": "1599"
+    },
+    {
+      "id": 8,
+      "name": "Iphone 15 Pro (1 TB) - Blue Titanium",
+      "image": "https://my-apple.com.ua/image/catalog/products/iphone/iphone-15-pro-15-pro-max/blue-titanium-1.png",
+      "price": "1699"
+    },
+    {
+      "id": 9,
+      "name": "Iphone 15 Pro Max (256 GB) - Natural Titanium",
+      "image": "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-natural-titanium-256gb-Back-Front-View.png",
+      "price": "1799"
+    },
+    {
+      "id": 10,
+      "name": "Apple Watch Series 9 Aluminium",
+      "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MT3H3ref_VW_34FR+watch-case-45-aluminum-midnight-nc-s9_VW_34FR+watch-face-45-aluminum-midnight-s9_VW_34FR_WF_CO?wid=2000&hei=2000&fmt=png-alpha&.v=1694507905569",
+      "price": "899"
+    },
+    {
+      "id": 11,
+      "name": "Apple Watch Ultra 2",
+      "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQE93_VW_34FR+watch-49-titanium-ultra2_VW_34FR+watch-face-49-ocean-ultra2_VW_34FR?wid=2000&hei=2000&fmt=png-alpha&.v=1694507270905",
+      "price": "799"
+    },
+    {
+      "id": 12,
+      "name": "Apple Watch Series 7",
+      "image": "https://www.att.com/scmsassets/global/devices/other/apple/apple-watch-series-7-45mm/carousel/6263D-1-CAROUSEL.png",
+      "price": "799"
+    },
+    {
+      "id": 13,
+      "name": "Apple TV 4K Wifi",
+      "image": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111922_sp845-apple-tv-4k-2gen.png",
+      "price": "499"
+    },
+    {
+      "id": 14,
+      "name": "Airpods Pro",
+      "image": "https://parspng.com/wp-content/uploads/2023/08/airpodspng.parspng.com-4.png",
+      "price": "299"
+    },
+    {
+      "id": 15,
+      "name": "Airpods Pro 2",
+      "image": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111851_sp880-airpods-Pro-2nd-gen.png",
+      "price": "399"
+    }
+  ]
+}
