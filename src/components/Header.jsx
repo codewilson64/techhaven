@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="max-w-[1280px] mx-auto h-24 lg:px-[140px] px-[40px]">
       <div className="flex items-center justify-between h-full">
-        <Link to="/">
+        <Link to="/techhaven">
           <div>
             <img className="w-[135px]" src={logoBlack} alt="logoBlack" />
           </div>
@@ -23,7 +23,7 @@ const Header = () => {
 
         <div className="sm:flex hidden items-center gap-8">
           <ul className="flex items-center gap-8 font-normal text-[16px]">
-            <Link to="/">
+            <Link to="/techhaven">
               <li className="font-poppins cursor-pointer">Home</li>
             </Link>
             <Link to="/shop">
