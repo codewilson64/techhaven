@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/techhaven/static/css/main.f1395d31.css",
+    "main.js": "/techhaven/static/js/main.581f305d.js",
+    "static/media/silver-lamicall-adjustable-laptop-riser.png": "/techhaven/static/media/silver-lamicall-adjustable-laptop-riser.e7a0358e34cce5e7c0e8.png",
+    "static/media/15-inch-macbook-air.png": "/techhaven/static/media/15-inch-macbook-air.c664c05425f82a918271.png",
+    "static/media/apple-watch-ultra-2.png": "/techhaven/static/media/apple-watch-ultra-2.0a25497fdc86ee6e2c20.png",
+    "static/media/hero-1.png": "/techhaven/static/media/hero-1.0ee56feb63b1ef474d73.png",
+    "static/media/apple-iphone-15-pro-max-256gb-natural-titanium.png": "/techhaven/static/media/apple-iphone-15-pro-max-256gb-natural-titanium.de06acd3dad4e319eeb3.png",
+    "static/media/apple-iphone-15-pro-1tb-blue-titanium.png": "/techhaven/static/media/apple-iphone-15-pro-1tb-blue-titanium.90db317e711a97a25227.png",
+    "static/media/13-inch-macbook-air-256gb-space-gray.png": "/techhaven/static/media/13-inch-macbook-air-256gb-space-gray.ace5d559d878a0b90138.png",
+    "static/media/apple-ipad-air-256gb-purple.png": "/techhaven/static/media/apple-ipad-air-256gb-purple.10e11e4f5608dbe80f50.png",
+    "static/media/11-inch-ipad-pro-512gb-space-gray.png": "/techhaven/static/media/11-inch-ipad-pro-512gb-space-gray.176ca851cd43ab49ab9b.png",
+    "static/media/14-inch-macbook-pro-12-core-1tb-space-black.png": "/techhaven/static/media/14-inch-macbook-pro-12-core-1tb-space-black.9e5704e7213f6889f4c9.png",
+    "static/media/apple-iphone-14-128gb-blue.png": "/techhaven/static/media/apple-iphone-14-128gb-blue.8cd3fe5425df7a8f9c82.png",
+    "static/media/airpods-max.png": "/techhaven/static/media/airpods-max.1d07d971a9756027857e.png",
+    "static/media/apple-watch-series-9-aluminum.png": "/techhaven/static/media/apple-watch-series-9-aluminum.5d86ed31fcfe044c6c92.png",
+    "static/media/laptops-category.png": "/techhaven/static/media/laptops-category.742a9c4e46cc03800d21.png",
+    "static/media/apple-tv-4k-wifi.png": "/techhaven/static/media/apple-tv-4k-wifi.64df8650bff500b93e42.png",
+    "static/media/watches-category.png": "/techhaven/static/media/watches-category.c416e25595d3fa48cb71.png",
+    "static/media/airpods-pro-2nd-generation.png": "/techhaven/static/media/airpods-pro-2nd-generation.60f5d986b53a89561ea7.png",
+    "static/media/accessories-category.png": "/techhaven/static/media/accessories-category.9e0339f2bcdd931826d7.png",
+    "static/media/phones-category.png": "/techhaven/static/media/phones-category.46e0a50bba7641a1b513.png",
+    "static/media/apple-pencil-1st-generation.png": "/techhaven/static/media/apple-pencil-1st-generation.81307177d50ff4b5a145.png",
+    "static/media/ipads-category.png": "/techhaven/static/media/ipads-category.7a40a3e95908c458a882.png",
+    "static/media/tv-home-category.png": "/techhaven/static/media/tv-home-category.b40d8093a906a6bf2c55.png",
+    "static/media/logo-black.svg": "/techhaven/static/media/logo-black.c828fdcbd076a701959870831dc84056.svg",
+    "static/media/logo-white.svg": "/techhaven/static/media/logo-white.e37e4c5c0324db2d59ccebfbe6300f69.svg",
+    "static/media/close.svg": "/techhaven/static/media/close.6fc6c22b545b692d1ebe4d0e18c53513.svg",
+    "static/media/menu.svg": "/techhaven/static/media/menu.2b195cef5e9b515e988e4e0dad131f13.svg",
+    "index.html": "/techhaven/index.html",
+    "static/media/trash.svg": "/techhaven/static/media/trash.63b2215180e59191412b81f9823bffb2.svg",
+    "static/media/cart.svg": "/techhaven/static/media/cart.0ede73b4e7c2cbde08bc3c96afea32d4.svg",
+    "main.f1395d31.css.map": "/techhaven/static/css/main.f1395d31.css.map",
+    "main.581f305d.js.map": "/techhaven/static/js/main.581f305d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1395d31.css",
+    "static/js/main.581f305d.js"
+  ]
+}
