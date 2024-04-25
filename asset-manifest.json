@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/techhaven/static/css/main.a3fde070.css",
-    "main.js": "/techhaven/static/js/main.df1164b3.js",
+    "main.js": "/techhaven/static/js/main.1c81d426.js",
     "static/media/silver-lamicall-adjustable-laptop-riser.png": "/techhaven/static/media/silver-lamicall-adjustable-laptop-riser.e7a0358e34cce5e7c0e8.png",
     "static/media/15-inch-macbook-air.png": "/techhaven/static/media/15-inch-macbook-air.c664c05425f82a918271.png",
     "static/media/apple-watch-ultra-2.png": "/techhaven/static/media/apple-watch-ultra-2.0a25497fdc86ee6e2c20.png",
@@ -32,10 +32,10 @@
     "static/media/trash.svg": "/techhaven/static/media/trash.63b2215180e59191412b81f9823bffb2.svg",
     "static/media/cart.svg": "/techhaven/static/media/cart.0ede73b4e7c2cbde08bc3c96afea32d4.svg",
     "main.a3fde070.css.map": "/techhaven/static/css/main.a3fde070.css.map",
-    "main.df1164b3.js.map": "/techhaven/static/js/main.df1164b3.js.map"
+    "main.1c81d426.js.map": "/techhaven/static/js/main.1c81d426.js.map"
   },
   "entrypoints": [
     "static/css/main.a3fde070.css",
-    "static/js/main.df1164b3.js"
+    "static/js/main.1c81d426.js"
   ]
 }
