@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/techSlice";
 import { ToastContainer, toast } from "react-toastify";
+import { useKindeAuth } from "@kinde-oss/kinde-auth-react";
 
 const Product = () => {
   const dispatch = useDispatch();
@@ -10,6 +11,8 @@ const Product = () => {
   const [details, setDetails] = useState({});
 
   const location = useLocation();
+
+  const { isAuthenticated } = useKindeAuth();
 
   useEffect(() => {
     setDetails(location.state.item);
@@ -36,22 +39,30 @@ const Product = () => {
             </p>
           </div>
 
-          <button
-            onClick={() =>
-              dispatch(
-                addToCart({
-                  id: details.id,
-                  name: details.name,
-                  image: details.image,
-                  price: details.price,
-                  quantity: 1,
-                })
-              ) & toast.success(`${details.name} is added`)
-            }
-            className="bg-black text-white py-4 rounded-xl"
-          >
-            Add to cart
-          </button>
+          {!isAuthenticated && (
+            <button onClick={() => toast.error("Please login to add to cart.")} className="bg-black text-white py-4 rounded-xl">
+              Add to cart <span className="text-[12px]">(Login required!)</span>
+            </button>
+          )}
+
+          {isAuthenticated && (
+            <button
+              onClick={() =>
+                dispatch(
+                  addToCart({
+                    id: details.id,
+                    name: details.name,
+                    image: details.image,
+                    price: details.price,
+                    quantity: 1,
+                  })
+                ) & toast.success(`${details.name} is added`)
+              }
+              className="bg-black text-white py-4 rounded-xl"
+            >
+              Add to cart
+            </button>
+          )}
         </div>
       </div>
 

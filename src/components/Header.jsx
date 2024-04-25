@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import { logoBlack, cart, close, menu } from "../assets";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { useKindeAuth } from "@kinde-oss/kinde-auth-react";
 
 const Header = () => {
   const productData = useSelector((state) => state.tech.productData);
 
   const [toggle, setToggle] = useState(false);
+
+  const { login, logout, isAuthenticated, isLoading } = useKindeAuth();
 
   return (
     <div className="max-w-[1280px] mx-auto h-24 lg:px-[140px] px-[40px]">
@@ -32,16 +35,32 @@ const Header = () => {
             <Link to="/cart">
               <li className="flex items-center gap-1">
                 <img src={cart} alt="cart" />
-                <span className="text-md">({productData.length})</span>
+                {!isAuthenticated && <span className="text-md">(0)</span>}
+                {isAuthenticated && <span className="text-md">({productData.length})</span>}
               </li>
             </Link>
           </ul>
-          <button className="flex items-center text-[16px] text-white bg-black p-6 h-4 rounded-lg">Login</button>
+
+          {isLoading && <p>Loading...</p>}
+
+          {!isLoading && !isAuthenticated && (
+            <button onClick={login} type="button" className="flex items-center text-[16px] text-white bg-black p-6 h-4 rounded-lg">
+              Log In
+            </button>
+          )}
+
+          {!isLoading && isAuthenticated && (
+            <>
+              <button onClick={logout} type="button" className="flex items-center text-[16px] text-white bg-black p-6 h-4 rounded-lg">
+                Log out
+              </button>
+            </>
+          )}
         </div>
 
-        <div className={`${toggle ? "flex" : "hidden"} justify-center absolute top-20 right-0 p-6 mx-4 my-2 w-full bg-gray-100 z-[5]`}>
+        <div className={`${toggle ? "flex" : "hidden"} justify-center absolute top-20 right-5 p-6 my-2 w-1/2 bg-gray-100 rounded-xl z-[5]`}>
           <ul className="flex flex-col items-center gap-8 font-normal text-[16px]">
-            <Link to="/">
+            <Link to="/techhaven">
               <li className="font-poppins cursor-pointer">Home</li>
             </Link>
             <Link to="/shop">
@@ -50,10 +69,22 @@ const Header = () => {
             <Link to="/cart">
               <li className="flex items-center gap-1">
                 <img src={cart} alt="cart" />
-                <span className="text-md">({productData.length})</span>
+                {!isAuthenticated && <span className="text-md">(0)</span>}
+                {isAuthenticated && <span className="text-md">({productData.length})</span>}
               </li>
             </Link>
-            <button className="flex items-center text-[16px] text-white bg-black p-6 h-4 rounded-lg">Login</button>
+            {!isLoading && !isAuthenticated && (
+              <button onClick={login} type="button" className="flex items-center text-[16px] text-white bg-black p-6 h-4 rounded-lg">
+                Log In
+              </button>
+            )}
+            {!isLoading && isAuthenticated && (
+              <>
+                <button onClick={logout} type="button" className="flex items-center text-[16px] text-white bg-black p-6 h-4 rounded-lg">
+                  Log out
+                </button>
+              </>
+            )}
           </ul>
         </div>
       </div>
